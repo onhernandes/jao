@@ -1,0 +1,32 @@
+{
+  "name": "jao",
+  "version": "1.0.0",
+  "description": "Just another relational database mapper for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onhernandes/jao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onhernandes/jao/issues"
+  },
+  "homepage": "https://github.com/onhernandes/jao#readme",
+  "dependencies": {
+    "knex": "^0.20.10",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

@@ -8,7 +8,7 @@ This IS NOT for production, it's just for practicing my studies over ORMs, ODMs,
 
 ## Some notes, ideas and features
 
-- JAO uses knex for dealing with MySQL, so it should accept and knex instance on its setup and expose the running instance
+- JAO uses knex for dealing with MySQL, so it should accept an knex instance on its setup and expose the running instance
 - This is literally a relational database mapping, the main entities should be the JAO lib itself (for handling connections, options and even representing the whole database) and the table mappings - not models, schemas, etc
 - Table mappings should accept method overriting - I think it helps avoiding creating SQL queries directly, even though some cases are very specific
 - Defining table mappings should be global, I mean, I don't need to pass the JAO instance over the whole application just to define table mappings
