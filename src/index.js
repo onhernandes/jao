@@ -1,4 +1,4 @@
 const Jao = require('./jao')
-const mapTable = require('./mapTable')
+const table = require('./table')
 
-module.exports = { Jao, mapTable }
+module.exports = { Jao, table }

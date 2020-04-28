@@ -2,7 +2,7 @@ const Knex = require('knex')
 let knex
 const initialConfig = {
   host: 'localhost',
-  user: '',
+  user: 'root',
   password: '',
   database: 'jao'
 }
